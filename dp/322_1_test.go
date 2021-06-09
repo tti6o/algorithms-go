@@ -46,4 +46,5 @@ func dp (coins []int, amount int,memo *map[int]int) int {
 func Test_322(t *testing.T) {
 	coins := []int{186,419,83,408}
 	fmt.Println(coinChange(coins,6248))
+	fmt.Println()
 }
