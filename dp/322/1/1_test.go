@@ -1,4 +1,4 @@
-package main
+package dp322_1
 
 import (
 	"fmt"
@@ -43,7 +43,7 @@ func dp (coins []int, amount int,memo *map[int]int) int {
 }
 
 
-func Test_322(t *testing.T) {
+func Test1(t *testing.T) {
 	coins := []int{186,419,83,408}
 	fmt.Println(coinChange(coins,6248))
 }
